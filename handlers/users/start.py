@@ -23,4 +23,4 @@ async def bot_start(message: types.Message):
     except sqlite3.IntegrityError as err:
         # await bot.send_message(chat_id=ADMINS[0], text=err)
         pass
-    await message.answer(f"Salom, {message.from_user.full_name}!")
+    await message.answer(f"Salom, {message.from_user.full_name}!\n QR kod yasash uchun link yuborishingiz mumkin.")
